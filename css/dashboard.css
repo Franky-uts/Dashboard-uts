@@ -40,4 +40,75 @@ body
     color: #818181;
     text-decoration: none;
     font-size: 20px;
+    display: block;
+    padding: 15px 8px 15px 32px;
+    transition: 0.5s;
+}
+.sidenav a:hover
+{
+    color: #f1f1f1;
+    background-color: #1b203d;
+}
+.sidenav 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+.main
+{
+    transition: 0.5s;
+    padding: 15px;
+    margin-left: 300px;
+}
+.head
+{
+    padding: 20px;
+}
+.col-div-6
+{
+    width: 50%;
+    float: left;
+}
+.profile
+{
+    display: inline-block;
+    float: right;
+    width: 160px;
+}
+.pro-img
+{
+    width: 40px;
+    float: left;
+    margin-top: 5px;
+}
+.profile p
+{
+    color: white;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+.profile p span
+{
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    color: #8e8b8b;
+}
+.col-div-3
+{
+    width: 25%;
+    float: left;
+}
+.box
+{
+    width:85%;
+    height: 100px;
+    background-color: #272c4a;
+    margin-left: 10px;
+    padding: 10px;
+
 }
