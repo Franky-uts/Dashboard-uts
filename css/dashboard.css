@@ -30,6 +30,7 @@ body
     position:fixed;
     z-index: 1;
     top: 0;
+    left: 0;
     background-color: black;
     overflow:hidden;
     transition:0.5s;
